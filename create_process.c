@@ -24,7 +24,7 @@ void _tmain( int argc, TCHAR *argv[] )
         &pi )           // Pointer to PROCESS_INFORMATION structure
     ) 
     
-    // If is FALSE, than i send this messagebox
+    // If is FALSE, then i send this messagebox
     {
  int FailedBox = MessageBox(
         NULL,
